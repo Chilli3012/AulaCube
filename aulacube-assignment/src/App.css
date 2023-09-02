@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-color: black; */
+  margin-top: 3%;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  background-color: beige;
+}
+
+.left-panel input {
+  /* background-color: aliceblue; */
+  margin-top: 20px;
+  width: 95.5%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.post-list {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.post-item {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+  transition: background-color 0.1s;
+  border-radius: 20px;
+}
+
+.post-item:hover {
+  /* color: black; */
+  background-color: #90d8d3;
+}
+
+.post-item.selected {
+  background-color: #90d8d3;
+  color: white;
+}
+
+.right-panel {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  background-color:beige;
+}
+
+.comment-item {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  background-color:#90d8d3;
+}
